@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/NightLife"
+            android:icon="@drawable/ic_night_life"
+            android:title="Night Life" />
+        <item
+            android:id="@+id/LodgesHotels"
+            android:icon="@drawable/ic_lodges_hotels"
+            android:title="Lodges/Hotels" />
+        <item
+            android:id="@+id/RestaurantCafe"
+            android:icon="@drawable/ic_restaurant_cafe"
+            android:title="Restaurant/Cafe" />
+    </group>
+
+    <item android:title="To do list">
+        <menu>
+            <item
+                android:id="@+id/Paragliding"
+                android:icon="@drawable/ic_paragliding"
+                android:title="Paragliding" />
+            <item
+                android:id="@+id/Bungee"
+                android:icon="@drawable/ic_bungee"
+                android:title="Bungee" />
+        </menu>
+    </item>
+
+    <item android:title="Travel">
+        <menu>
+            <item
+                android:id="@+id/TravelAgencies"
+                android:icon="@drawable/ic_travel_agencies"
+                android:title="Travel Agencies" />
+        </menu>
+    </item>
+</menu>
